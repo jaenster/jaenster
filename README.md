@@ -86,6 +86,7 @@ _Mostly solutions to problems I gave myself._
 | [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐42 | Browser automation for Claude, powered by Puppeteer |
 | [**remote-shell-mcp**](https://github.com/jaenster/remote-shell-mcp) ⭐2 | Persistent SSH, SFTP, port-forwarding & Docker over MCP |
 | [**ts-lsp-mcp**](https://github.com/jaenster/ts-lsp-mcp) ⭐2 | TypeScript language-server features as MCP tools |
+| [**ghidra-mcp**](https://github.com/jaenster/ghidra-mcp) | Ghidra reverse-engineering over MCP — headless daemon, OAuth 2.1, k8s |
 | [**node-debugger-mcp**](https://github.com/jaenster/node-debugger-mcp) | A real Node.js debugger for Claude via the V8 Inspector Protocol |
 | [**nestjs-mcp-controller**](https://github.com/jaenster/nestjs-mcp-controller) | Build MCP servers in NestJS with `@Controller`/`@Tool()` classes |
 
