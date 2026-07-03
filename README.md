@@ -56,11 +56,11 @@ const jaenster = {
 | Repo | What it does |
 |-|-|
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐6 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
+| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐9 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐5 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐4 | The unseen layer between you and Diablo II |
 | [**ryuk**](https://github.com/jaenster/ryuk) ⭐3 | Diablo II bot — the one that eats apples |
-| [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐1 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
+| [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐2 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 
 ### Libraries
 
