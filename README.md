@@ -77,7 +77,7 @@ _Mostly solutions to problems I gave myself._
 
 | Repo | What it does |
 |-|-|
-| [**hush**](https://github.com/jaenster/hush) | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
+| [**hush**](https://github.com/jaenster/hush) ⭐1 | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
 | [**hoardarr**](https://github.com/jaenster/hoardarr) | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI, pure Go |
 
 ### MCP servers for agentic llm's
