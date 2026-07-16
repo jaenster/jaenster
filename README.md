@@ -78,7 +78,8 @@ _Mostly solutions to problems I gave myself._
 | Repo | What it does |
 |-|-|
 | [**hush**](https://github.com/jaenster/hush) ⭐2 | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
-| [**hoardarr**](https://github.com/jaenster/hoardarr) | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI, pure Go |
+| [**zingress**](https://github.com/jaenster/zingress) | A small, cloud-native Kubernetes ingress in Zig — does the ingress job and nothing else  |
+
 
 ### MCP servers for agentic llm's
 
