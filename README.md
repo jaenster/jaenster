@@ -85,7 +85,7 @@ _Mostly solutions to problems I gave myself._
 
 | Repo | What it does |
 |-|-|
-| [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐46 | Browser automation for Claude, powered by Puppeteer |
+| [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐47 | Browser automation for Claude, powered by Puppeteer |
 | [**ts-lsp-mcp**](https://github.com/jaenster/ts-lsp-mcp) ⭐3 | TypeScript language-server features as MCP tools |
 | [**remote-shell-mcp**](https://github.com/jaenster/remote-shell-mcp) ⭐2 | Persistent SSH, SFTP, port-forwarding & Docker over MCP |
 | [**ghidra-mcp**](https://github.com/jaenster/ghidra-mcp) ⭐1 | Ghidra reverse-engineering over MCP — headless daemon, OAuth 2.1, k8s |
