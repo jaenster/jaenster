@@ -56,7 +56,7 @@ const jaenster = {
 | Repo | What it does |
 |-|-|
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐19 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
+| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐20 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
 | [**libd2**](https://github.com/jaenster/libd2) ⭐12 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core 
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐6 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐5 | The unseen layer between you and Diablo II |
@@ -88,7 +88,7 @@ _Mostly solutions to problems I gave myself._
 |-|-|
 | [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐48 | Browser automation for Claude, powered by Puppeteer |
 | [**ts-lsp-mcp**](https://github.com/jaenster/ts-lsp-mcp) ⭐3 | TypeScript language-server features as MCP tools |
-| [**remote-shell-mcp**](https://github.com/jaenster/remote-shell-mcp) ⭐1 | Persistent SSH, SFTP, port-forwarding & Docker over MCP |
+| [**remote-shell-mcp**](https://github.com/jaenster/remote-shell-mcp) ⭐2 | Persistent SSH, SFTP, port-forwarding & Docker over MCP |
 | [**ghidra-mcp**](https://github.com/jaenster/ghidra-mcp) ⭐1 | Ghidra reverse-engineering over MCP — headless daemon, OAuth 2.1, k8s |
 | [**node-debugger-mcp**](https://github.com/jaenster/node-debugger-mcp) | A real Node.js debugger for Claude via the V8 Inspector Protocol |
 | [**nestjs-mcp-controller**](https://github.com/jaenster/nestjs-mcp-controller) | Build MCP servers in NestJS with `@Controller`/`@Tool()` classes |
