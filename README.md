@@ -56,7 +56,7 @@ const jaenster = {
 | Repo | What it does |
 |-|-|
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐23 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
+| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐24 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
 | [**libd2**](https://github.com/jaenster/libd2) ⭐12 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core 
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐6 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐5 | The unseen layer between you and Diablo II |
@@ -69,7 +69,7 @@ _Mostly solutions to problems I gave myself._
 
 | Repo | What it does |
 |-|-|
-| [**justscale**](https://github.com/justscale/justscale) ⭐16 | Write a single-server backend. It just scales across a cluster. |
+| [**justscale**](https://github.com/justscale/justscale) ⭐17 | Write a single-server backend. It just scales across a cluster. |
 | [**fake-socket**](https://github.com/jaenster/fake-socket) ⭐5 | In-memory socket implementation |
 | [**weakrefmap**](https://github.com/jaenster/weakrefmap) ⭐4 | WeakRef-backed Map — one of an unreasonable number of WeakRef variants |
 
