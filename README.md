@@ -68,11 +68,11 @@ _Also starred:_
 
 | Repo | What it does |
 |-|-|
-| [**D2Launcher**](https://github.com/jaenster/D2Launcher) ⭐4 | Launches multiple D2 instances, in high res, with diff cdkeys |
 | [**d2mac-linux**](https://github.com/jaenster/d2mac-linux) ⭐4 | The 1.14d macOS Diablo II binary running natively on 32-bit Linux: Mach-O converted to ELF, Darwin/Carbon rei… |
 | [**blizzard-legacy-dl**](https://github.com/jaenster/blizzard-legacy-dl) ⭐3 | Download the legacy Blizzard games (Diablo II, StarCraft, Warcraft III) from Blizzard's own servers, without… |
 | [**d2-bnftp-archive**](https://github.com/jaenster/d2-bnftp-archive) ⭐3 | Archive of every file Blizzard's classic Battle.net servers serve over BNFTP |
 | [**D2OpenGL**](https://github.com/jaenster/D2OpenGL) ⭐3 | OpenGL renderer for Diablo II 1.14d on Windows, restored from the Mac build |
+| [**socks5-diablo**](https://github.com/jaenster/socks5-diablo) ⭐3 | Very simple implementation of socks5 protocol |
 <!-- STARRED:diablo:END -->
 
 ### Libraries

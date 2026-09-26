@@ -59,6 +59,8 @@ let md = await readFile(FILE, "utf8");
 //    PER_GROUP per block, most stars first (ties by name, so output is stable).
 const MIN_STARS = 2;
 const PER_GROUP = 5;
+// Not my own work, even where GitHub does not flag them as forks.
+const EXCLUDE = new Set(["d2launcher"]);
 const THEMES = [
   ["diablo", /(^|[^a-z0-9])(d2r?|diablo[- ]?(2|ii)?|blizzard|battle[- .]?net|mpq|bnftp|kolbot|d2bs|pvpgn)/i],
   ["mcp", /(^|[^a-z])mcp([^a-z]|$)|model-context-protocol/i],
@@ -83,7 +85,7 @@ const themeOf = (r) => {
 const groups = new Map();
 for (const r of repos) {
   if (r.fork || r.archived || r.stargazers_count < MIN_STARS || !clean(r.description)) continue;
-  if (curated.has(key(OWNER, r.name))) continue;
+  if (curated.has(key(OWNER, r.name)) || EXCLUDE.has(r.name.toLowerCase())) continue;
   const t = themeOf(r);
   if (!groups.has(t)) groups.set(t, []);
   groups.get(t).push(r);
