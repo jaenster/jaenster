@@ -1,6 +1,6 @@
 // Refresh README.md from the live GitHub API:
-//  1. regenerate the list of starred public repos (not forks, not archived) that
-//     the curated tables do not already feature, between the STARRED-REPOS markers;
+//  1. fill the <!-- STARRED:<theme>:START/END --> blocks with starred public repos
+//     (not forks, not archived) that the curated tables do not already feature;
 //  2. refresh the "⭐N" star counts on every repo link in a markdown table and
 //     sort each table's rows by star count (descending).
 // Idempotent: only touches the marked section, star markers and row order.
@@ -9,8 +9,6 @@ import { readFile, writeFile } from "node:fs/promises";
 const FILE = "README.md";
 const OWNER = "jaenster";
 const token = process.env.GITHUB_TOKEN;
-const START = "<!-- STARRED-REPOS:START -->";
-const END = "<!-- STARRED-REPOS:END -->";
 const MAX_DESC = 110;
 
 const LINK = String.raw`\[\*\*[^\]]+\*\*\]\(https:\/\/github\.com\/([^/)]+)\/([^/)]+)\)`;
@@ -55,29 +53,49 @@ const stars = new Map(repos.map((r) => [key(OWNER, r.name), r.stargazers_count ?
 
 let md = await readFile(FILE, "utf8");
 
-// 1. The generated section.
-const s = md.indexOf(START);
-const e = md.indexOf(END);
-if (s !== -1 && e > s) {
-  const curated = new Set();
-  for (const l of (md.slice(0, s) + md.slice(e)).split("\n")) {
-    const full = repoOf(l);
-    if (full) curated.add(full);
-  }
-  const clean = (d) => {
-    const t = (d ?? "").replace(/\s+/g, " ").replace(/\|/g, "\\|").trim();
-    return t.length > MAX_DESC ? `${t.slice(0, MAX_DESC - 1).trimEnd()}…` : t;
-  };
-  const rows = repos
-    .filter((r) => !r.fork && !r.archived && r.stargazers_count > 0)
-    .filter((r) => !curated.has(key(OWNER, r.name)))
-    .sort((a, b) => b.stargazers_count - a.stargazers_count || a.name.localeCompare(b.name))
-    .map((r) => `| [**${r.name}**](${r.html_url}) ⭐${r.stargazers_count} | ${clean(r.description)} |`);
-  const body = rows.length
-    ? ["| Repo | What it does |", "|-|-|", ...rows].join("\n")
-    : "_Nothing else yet._";
-  md = `${md.slice(0, s + START.length)}\n${body}\n${md.slice(e)}`;
+// 1. The generated blocks. Each starred repo that no curated table features is
+//    sorted into the first theme it matches and listed in that theme's block.
+//    Only repos with at least MIN_STARS stars and a description qualify, at most
+//    PER_GROUP per block, most stars first (ties by name, so output is stable).
+const MIN_STARS = 2;
+const PER_GROUP = 5;
+const THEMES = [
+  ["diablo", /(^|[^a-z0-9])(d2r?|diablo[- ]?(2|ii)?|blizzard|battle[- .]?net|mpq|bnftp|kolbot|d2bs|pvpgn)/i],
+  ["mcp", /(^|[^a-z])mcp([^a-z]|$)|model-context-protocol/i],
+  ["libraries", /polyfill|weakref|librar|(^|[^a-z])lib([^a-z]|$)/i],
+  ["apps", /./],
+];
+const blockRe = /<!-- STARRED:(\w+):START -->[\s\S]*?<!-- STARRED:\1:END -->/g;
+
+const curated = new Set();
+for (const l of md.replace(blockRe, "").split("\n")) {
+  const full = repoOf(l);
+  if (full) curated.add(full);
 }
+const clean = (d) => {
+  const t = (d ?? "").replace(/\s+/g, " ").replace(/\|/g, "\\|").trim();
+  return t.length > MAX_DESC ? `${t.slice(0, MAX_DESC - 1).trimEnd()}…` : t;
+};
+const themeOf = (r) => {
+  const hay = [r.name, r.description ?? "", ...(r.topics ?? [])].join(" ");
+  return THEMES.find(([, re]) => re.test(hay))[0];
+};
+const groups = new Map();
+for (const r of repos) {
+  if (r.fork || r.archived || r.stargazers_count < MIN_STARS || !clean(r.description)) continue;
+  if (curated.has(key(OWNER, r.name))) continue;
+  const t = themeOf(r);
+  if (!groups.has(t)) groups.set(t, []);
+  groups.get(t).push(r);
+}
+md = md.replace(blockRe, (_w, theme) => {
+  const rows = (groups.get(theme) ?? [])
+    .sort((a, b) => b.stargazers_count - a.stargazers_count || a.name.toLowerCase().localeCompare(b.name.toLowerCase()))
+    .slice(0, PER_GROUP)
+    .map((r) => `| [**${r.name}**](${r.html_url}) ⭐${r.stargazers_count} | ${clean(r.description)} |`);
+  const body = rows.length ? `\n_Also starred:_\n\n| Repo | What it does |\n|-|-|\n${rows.join("\n")}\n` : "\n";
+  return `<!-- STARRED:${theme}:START -->${body}<!-- STARRED:${theme}:END -->`;
+});
 
 // 2. Star counts and sort order in every table.
 const lines = md.split("\n");

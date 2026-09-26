@@ -63,6 +63,18 @@ const jaenster = {
 | [**aether**](https://github.com/jaenster/aether) ⭐5 | The unseen layer between you and Diablo II |
 | [**ryuk**](https://github.com/jaenster/ryuk) ⭐4 | Diablo II bot — the one that eats apples |
 
+<!-- STARRED:diablo:START -->
+_Also starred:_
+
+| Repo | What it does |
+|-|-|
+| [**D2Launcher**](https://github.com/jaenster/D2Launcher) ⭐4 | Launches multiple D2 instances, in high res, with diff cdkeys |
+| [**d2mac-linux**](https://github.com/jaenster/d2mac-linux) ⭐4 | The 1.14d macOS Diablo II binary running natively on 32-bit Linux: Mach-O converted to ELF, Darwin/Carbon rei… |
+| [**blizzard-legacy-dl**](https://github.com/jaenster/blizzard-legacy-dl) ⭐3 | Download the legacy Blizzard games (Diablo II, StarCraft, Warcraft III) from Blizzard's own servers, without… |
+| [**d2-bnftp-archive**](https://github.com/jaenster/d2-bnftp-archive) ⭐3 | Archive of every file Blizzard's classic Battle.net servers serve over BNFTP |
+| [**D2OpenGL**](https://github.com/jaenster/D2OpenGL) ⭐3 | OpenGL renderer for Diablo II 1.14d on Windows, restored from the Mac build |
+<!-- STARRED:diablo:END -->
+
 ### Libraries
 
 _Mostly solutions to problems I gave myself._
@@ -73,6 +85,9 @@ _Mostly solutions to problems I gave myself._
 | [**fake-socket**](https://github.com/jaenster/fake-socket) ⭐5 | In-memory socket implementation |
 | [**weakrefmap**](https://github.com/jaenster/weakrefmap) ⭐4 | WeakRef-backed Map — one of an unreasonable number of WeakRef variants |
 
+<!-- STARRED:libraries:START -->
+<!-- STARRED:libraries:END -->
+
 ### Apps & daemons
 
 | Repo | What it does |
@@ -81,6 +96,8 @@ _Mostly solutions to problems I gave myself._
 | [**MacDirStat**](https://github.com/jaenster/macdirstat) ⭐1 | Disk usage as a treemap for macOS, in the shape of WinDirStat. Pure Zig against AppKit. |
 | [**hoardarr**](https://github.com/jaenster/hoardarr) | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI — pure-Go single binary, no cgo |
 
+<!-- STARRED:apps:START -->
+<!-- STARRED:apps:END -->
 
 ### MCP servers for agentic llm's
 
@@ -93,31 +110,8 @@ _Mostly solutions to problems I gave myself._
 | [**node-debugger-mcp**](https://github.com/jaenster/node-debugger-mcp) | A real Node.js debugger for Claude via the V8 Inspector Protocol |
 | [**nestjs-mcp-controller**](https://github.com/jaenster/nestjs-mcp-controller) | Build MCP servers in NestJS with `@Controller`/`@Tool()` classes |
 
-### More with a star
-
-_Everything else people starred. Generated daily._
-
-<!-- STARRED-REPOS:START -->
-| Repo | What it does |
-|-|-|
-| [**D2Launcher**](https://github.com/jaenster/D2Launcher) ⭐4 | Launches multiple D2 instances, in high res, with diff cdkeys |
-| [**d2mac-linux**](https://github.com/jaenster/d2mac-linux) ⭐4 | The 1.14d macOS Diablo II binary running natively on 32-bit Linux: Mach-O converted to ELF, Darwin/Carbon rei… |
-| [**blizzard-legacy-dl**](https://github.com/jaenster/blizzard-legacy-dl) ⭐3 | Download the legacy Blizzard games (Diablo II, StarCraft, Warcraft III) from Blizzard's own servers, without… |
-| [**d2-bnftp-archive**](https://github.com/jaenster/d2-bnftp-archive) ⭐3 | Archive of every file Blizzard's classic Battle.net servers serve over BNFTP |
-| [**D2OpenGL**](https://github.com/jaenster/D2OpenGL) ⭐3 | OpenGL renderer for Diablo II 1.14d on Windows, restored from the Mac build |
-| [**socks5-diablo**](https://github.com/jaenster/socks5-diablo) ⭐3 | Very simple implementation of socks5 protocol |
-| [**blizztracker-d2r**](https://github.com/jaenster/blizztracker-d2r) ⭐2 | Small script to poll the blizzard website and put the freshly blue made posts on discord |
-| [**array-group-by-polyfill**](https://github.com/jaenster/array-group-by-polyfill) ⭐1 | proposal-array-grouping polyfill. Polyfill for Array.prototype.groupBy and Array.prototype.groupByMap |
-| [**binary-waterfall**](https://github.com/jaenster/binary-waterfall) ⭐1 | A raw-data media player in your browser — hear and see any file. Zig+WASM + React. Port of nimaid/binary-wate… |
-| [**d2bs-wine**](https://github.com/jaenster/d2bs-wine) ⭐1 | Run a stock Diablo II 1.14d client with D2BS/kolbot against a private realm under Wine — a single dbghelp.dll… |
-| [**d2r-cdn**](https://github.com/jaenster/d2r-cdn) ⭐1 | How Diablo II: Resurrected is distributed over Blizzard's modern CDN (NGDP/TACT), with a pure-curl reference… |
-| [**ghidra-reconstruct**](https://github.com/jaenster/ghidra-reconstruct) ⭐1 |  |
-| [**ts-socks**](https://github.com/jaenster/ts-socks) ⭐1 |  |
-| [**VPN**](https://github.com/jaenster/VPN) ⭐1 |  |
-| [**weakref-pollyfill**](https://github.com/jaenster/weakref-pollyfill) ⭐1 | A simple polyfill for weakrefs |
-| [**win-which**](https://github.com/jaenster/win-which) ⭐1 | Which ported to windows |
-| [**XPRuns**](https://github.com/jaenster/XPRuns) ⭐1 | A teamed baal/nihlatak/dia run -- Diablo 2 botting |
-<!-- STARRED-REPOS:END -->
+<!-- STARRED:mcp:START -->
+<!-- STARRED:mcp:END -->
 
 ---
 
