@@ -92,7 +92,7 @@ _Mostly solutions to problems I gave myself._
 
 | Repo | What it does |
 |-|-|
-| [**hush**](https://github.com/jaenster/hush) ⭐2 | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
+| [**hush**](https://github.com/jaenster/hush) ⭐3 | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
 | [**MacDirStat**](https://github.com/jaenster/macdirstat) ⭐1 | Disk usage as a treemap for macOS, in the shape of WinDirStat. Pure Zig against AppKit. |
 | [**hoardarr**](https://github.com/jaenster/hoardarr) | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI — pure-Go single binary, no cgo |
 
