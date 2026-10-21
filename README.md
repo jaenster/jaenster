@@ -93,7 +93,7 @@ _Mostly solutions to problems I gave myself._
 | Repo | What it does |
 |-|-|
 | [**hush**](https://github.com/jaenster/hush) ⭐3 | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
-| [**MacDirStat**](https://github.com/jaenster/macdirstat) ⭐1 | Disk usage as a treemap for macOS, in the shape of WinDirStat. Pure Zig against AppKit. |
+| [**MacDirStat**](https://github.com/jaenster/macdirstat) ⭐2 | Disk usage as a treemap for macOS, in the shape of WinDirStat. Pure Zig against AppKit. |
 | [**hoardarr**](https://github.com/jaenster/hoardarr) | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI — pure-Go single binary, no cgo |
 
 <!-- STARRED:apps:START -->
@@ -103,7 +103,7 @@ _Mostly solutions to problems I gave myself._
 
 | Repo | What it does |
 |-|-|
-| [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐48 | Browser automation for Claude, powered by Puppeteer |
+| [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐49 | Browser automation for Claude, powered by Puppeteer |
 | [**ts-lsp-mcp**](https://github.com/jaenster/ts-lsp-mcp) ⭐3 | TypeScript language-server features as MCP tools |
 | [**remote-shell-mcp**](https://github.com/jaenster/remote-shell-mcp) ⭐2 | Persistent SSH, SFTP, port-forwarding & Docker over MCP |
 | [**ghidra-mcp**](https://github.com/jaenster/ghidra-mcp) ⭐1 | Ghidra reverse-engineering over MCP — headless daemon, OAuth 2.1, k8s |
