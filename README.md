@@ -57,8 +57,8 @@ const jaenster = {
 |-|-|
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
 | [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐30 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐29 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
-| [**libd2**](https://github.com/jaenster/libd2) ⭐18 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐30 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
+| [**libd2**](https://github.com/jaenster/libd2) ⭐19 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
 | [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐12 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐7 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐5 | The unseen layer between you and Diablo II |
