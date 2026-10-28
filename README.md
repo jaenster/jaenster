@@ -56,12 +56,12 @@ const jaenster = {
 | Repo | What it does |
 |-|-|
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐32 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐35 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
 | [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐30 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
 | [**libd2**](https://github.com/jaenster/libd2) ⭐20 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
 | [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐12 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐7 | Diablo II injection tooling |
-| [**aether**](https://github.com/jaenster/aether) ⭐5 | The unseen layer between you and Diablo II |
+| [**aether**](https://github.com/jaenster/aether) ⭐6 | The unseen layer between you and Diablo II |
 | [**ryuk**](https://github.com/jaenster/ryuk) ⭐4 | Diablo II bot — the one that eats apples |
 
 <!-- STARRED:diablo:START -->
