@@ -56,9 +56,9 @@ const jaenster = {
 | Repo | What it does |
 |-|-|
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐37 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
-| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐30 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
-| [**libd2**](https://github.com/jaenster/libd2) ⭐20 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐40 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
+| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐31 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
+| [**libd2**](https://github.com/jaenster/libd2) ⭐21 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
 | [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐12 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐7 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐6 | The unseen layer between you and Diablo II |
@@ -95,7 +95,7 @@ _Mostly solutions to problems I gave myself._
 |-|-|
 | [**hush**](https://github.com/jaenster/hush) ⭐3 | macOS secrets daemon (ssh-agent for env vars) — Zig + libsodium |
 | [**MacDirStat**](https://github.com/jaenster/macdirstat) ⭐2 | Disk usage as a treemap for macOS, in the shape of WinDirStat. Pure Zig against AppKit. |
-| [**hoardarr**](https://github.com/jaenster/hoardarr) | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI — pure-Go single binary, no cgo |
+| [**hoardarr**](https://github.com/jaenster/hoardarr) ⭐1 | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI — pure-Go single binary, no cgo |
 
 <!-- STARRED:apps:START -->
 <!-- STARRED:apps:END -->
