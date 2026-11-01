@@ -55,11 +55,11 @@ const jaenster = {
 
 | Repo | What it does |
 |-|-|
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐46 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐41 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
-| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐32 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
-| [**libd2**](https://github.com/jaenster/libd2) ⭐22 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
-| [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐12 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
+| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐33 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
+| [**libd2**](https://github.com/jaenster/libd2) ⭐24 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
+| [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐13 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐7 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐6 | The unseen layer between you and Diablo II |
 | [**ryuk**](https://github.com/jaenster/ryuk) ⭐4 | Diablo II bot — the one that eats apples |
@@ -98,13 +98,18 @@ _Mostly solutions to problems I gave myself._
 | [**hoardarr**](https://github.com/jaenster/hoardarr) ⭐1 | Drop-in SABnzbd replacement with a Sonarr/Radarr-style UI — pure-Go single binary, no cgo |
 
 <!-- STARRED:apps:START -->
+_Also starred:_
+
+| Repo | What it does |
+|-|-|
+| [**setup-msvc**](https://github.com/jaenster/setup-msvc) ⭐2 | Set up a historical MSVC toolchain (6.0 to 2010) in CI, keyed on the exact cl.exe build. For byte-matching de… |
 <!-- STARRED:apps:END -->
 
 ### MCP servers for agentic llm's
 
 | Repo | What it does |
 |-|-|
-| [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐49 | Browser automation for Claude, powered by Puppeteer |
+| [**puppeteer-mcp-claude**](https://github.com/jaenster/puppeteer-mcp-claude) ⭐48 | Browser automation for Claude, powered by Puppeteer |
 | [**ts-lsp-mcp**](https://github.com/jaenster/ts-lsp-mcp) ⭐3 | TypeScript language-server features as MCP tools |
 | [**remote-shell-mcp**](https://github.com/jaenster/remote-shell-mcp) ⭐2 | Persistent SSH, SFTP, port-forwarding & Docker over MCP |
 | [**ghidra-mcp**](https://github.com/jaenster/ghidra-mcp) ⭐2 | Ghidra reverse-engineering over MCP — headless daemon, OAuth 2.1, k8s |
