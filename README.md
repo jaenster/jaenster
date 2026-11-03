@@ -55,10 +55,10 @@ const jaenster = {
 
 | Repo | What it does |
 |-|-|
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐50 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐58 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
 | [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐33 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
-| [**libd2**](https://github.com/jaenster/libd2) ⭐24 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
+| [**libd2**](https://github.com/jaenster/libd2) ⭐25 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
 | [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐13 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐7 | Diablo II injection tooling |
 | [**aether**](https://github.com/jaenster/aether) ⭐6 | The unseen layer between you and Diablo II |
@@ -102,6 +102,7 @@ _Also starred:_
 
 | Repo | What it does |
 |-|-|
+| [**claude-hooks**](https://github.com/jaenster/claude-hooks) ⭐2 | Claude Code hooks for git hygiene, code quality, and AI-assistant guardrails |
 | [**setup-msvc**](https://github.com/jaenster/setup-msvc) ⭐2 | Set up a historical MSVC toolchain (6.0 to 2010) in CI, keyed on the exact cl.exe build. For byte-matching de… |
 <!-- STARRED:apps:END -->
 
