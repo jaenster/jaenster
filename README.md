@@ -55,9 +55,9 @@ const jaenster = {
 
 | Repo | What it does |
 |-|-|
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐68 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐72 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
-| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐36 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
+| [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐37 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
 | [**libd2**](https://github.com/jaenster/libd2) ⭐27 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
 | [**d2-clientless**](https://github.com/jaenster/d2-clientless) ⭐13 | Clientless D2 1.14d Battle.net client (BNCS/MCP/BNFTP/D2GS) in Zig |
 | [**d2inject**](https://github.com/jaenster/d2inject) ⭐7 | Diablo II injection tooling |
@@ -69,8 +69,8 @@ _Also starred:_
 
 | Repo | What it does |
 |-|-|
+| [**blizzard-legacy-dl**](https://github.com/jaenster/blizzard-legacy-dl) ⭐5 | Download the legacy Blizzard games (Diablo II, StarCraft, Warcraft III) from Blizzard's own servers, without… |
 | [**d2mac-linux**](https://github.com/jaenster/d2mac-linux) ⭐5 | The 1.14d macOS Diablo II binary running natively on 32-bit Linux: Mach-O converted to ELF, Darwin/Carbon rei… |
-| [**blizzard-legacy-dl**](https://github.com/jaenster/blizzard-legacy-dl) ⭐4 | Download the legacy Blizzard games (Diablo II, StarCraft, Warcraft III) from Blizzard's own servers, without… |
 | [**d2-bnftp-archive**](https://github.com/jaenster/d2-bnftp-archive) ⭐4 | Archive of every file Blizzard's classic Battle.net servers serve over BNFTP |
 | [**D2OpenGL**](https://github.com/jaenster/D2OpenGL) ⭐4 | OpenGL renderer for Diablo II 1.14d on Windows, restored from the Mac build |
 | [**socks5-diablo**](https://github.com/jaenster/socks5-diablo) ⭐3 | Very simple implementation of socks5 protocol |
