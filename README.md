@@ -102,8 +102,8 @@ _Also starred:_
 
 | Repo | What it does |
 |-|-|
+| [**setup-msvc**](https://github.com/jaenster/setup-msvc) ⭐3 | Set up a historical MSVC toolchain (6.0 to 2010) in CI, keyed on the exact cl.exe build. For byte-matching de… |
 | [**claude-hooks**](https://github.com/jaenster/claude-hooks) ⭐2 | Claude Code hooks for git hygiene, code quality, and AI-assistant guardrails |
-| [**setup-msvc**](https://github.com/jaenster/setup-msvc) ⭐2 | Set up a historical MSVC toolchain (6.0 to 2010) in CI, keyed on the exact cl.exe build. For byte-matching de… |
 <!-- STARRED:apps:END -->
 
 ### MCP servers for agentic llm's
