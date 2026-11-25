@@ -55,7 +55,7 @@ const jaenster = {
 
 | Repo | What it does |
 |-|-|
-| [**redivivus**](https://github.com/jaenster/redivivus) ⭐79 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
+| [**redivivus**](https://github.com/jaenster/redivivus) ⭐80 | Diablo II 1.14d decompiled back into C++ source that builds into the working game |
 | [**jaenster-kolbot**](https://github.com/jaenster/jaenster-kolbot) ⭐41 | Diablo II botting framework |
 | [**d2-dedicated-server**](https://github.com/jaenster/d2-dedicated-server) ⭐37 | Self-hosted cloud-native D2 1.14d realm + game server in Zig (modern PvPGN) |
 | [**libd2**](https://github.com/jaenster/libd2) ⭐28 | A Zig reimplementation of the deterministic Diablo II 1.14d engine core |
